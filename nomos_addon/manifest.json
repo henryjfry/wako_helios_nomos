@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../node_modules/@wako-app/mobile-sdk/dist/manifest-schema.json",
+  "version": "1.1.4",
+  "id": "plugin.nomos",
+  "name": "Nomos",
+  "author": "Davy",
+  "description": "Allow to open Movie/TV Show on your favorite Kodi add-on",
+  "actions": ["movies", "episodes", "episodes-item-option"],
+  "entryPointV2": "https://raw.githubusercontent.com/wako-unofficial-addons/nomos/master/dist/plugin.js",
+  "entryPoint": "https://raw.githubusercontent.com/henryjfry/wako_helios_nomos/master/nomos_addon/plugin.js",
+  "languages": {
+    "en": "https://raw.githubusercontent.com/wako-unofficial-addons/nomos/master/dist/i18n/en.json",
+    "fr": "https://raw.githubusercontent.com/wako-unofficial-addons/nomos/master/dist/i18n/fr.json",
+    "pl": "https://raw.githubusercontent.com/wako-unofficial-addons/nomos/master/dist/i18n/pl.json"
+  },
+  "changeLogs": {
+    "1.1.4": "Use latest SDK",
+    "1.1.2": "Upgrade deps",
+    "1.1.1": "Initial version"
+  }
+}
